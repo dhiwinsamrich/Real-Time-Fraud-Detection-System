@@ -9,8 +9,6 @@ After the models are saved to the file system, start a Spark Streaming job that 
 
 With the classified in-coming transaction records stored in the Cassandra database, I use the Spring Boot framework to display the fraud and non-fraud transactions in real-time on the dashboard web page. Meanwhile, I also use the Flask framework to create two REST APIs that could easily retrieve the customer's information and create the transaction statement for each customer.
 
-__A video demo for the workflow could be found here:__ https://youtu.be/fOVsxk16b0w
-
 
 ## Implementation Details
 ### Customers & Transactions dataset
